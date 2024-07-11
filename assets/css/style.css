@@ -13,11 +13,6 @@ body {
     color: white; /* Cambiar el color de los enlaces a blanco */
 }
 
-.navbar-brand img {
-    filter: brightness(0) invert(1); /* Cambiar el color del logo a blanco */
-    transition: filter 0.5s; /* Transición suave para el cambio de color */
-}
-
 /* Específicamente asegurar que el enlace de la imagen no cambie el color */
 .navbar-brand {
     display: flex;
@@ -25,7 +20,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 50px; /* Ajustar la altura de la imagen si es necesario */
+    height: 50px; /* Ajustar la altura de la imagen del logo*/
 }
 
 .navbar.scrolled {
@@ -43,7 +38,7 @@ body {
 .carousel-inner img {
     width: 100%;
     height: 100vh;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 #presentacion i {
