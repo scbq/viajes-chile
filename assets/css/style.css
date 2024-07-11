@@ -1,0 +1,84 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0); /* Hacer transparente la navbar */
+    transition: background-color 0.5s; /* Transición suave para el cambio de color */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white; /* Cambiar el color de los enlaces a blanco */
+}
+
+.navbar-brand img {
+    filter: brightness(0) invert(1); /* Cambiar el color del logo a blanco */
+    transition: filter 0.5s; /* Transición suave para el cambio de color */
+}
+
+/* Específicamente asegurar que el enlace de la imagen no cambie el color */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px; /* Ajustar la altura de la imagen si es necesario */
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+}
+
+.navbar.scrolled .navbar-light .navbar-nav .nav-link {
+    color: #000; /* Cambiar el color de los enlaces a negro cuando se hace scroll */
+}
+
+.navbar.scrolled .navbar-brand img {
+    filter: none; /* Quitar el filtro del logo */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#presentacion i {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #333; /* Fondo de las tarjetas en gris oscuro */
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title, .card-text {
+    color: #fff; /* Texto blanco en las tarjetas */
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+    color: #fff; /* Texto blanco en el footer */
+}
+
+footer a {
+    color: #ccc; /* Enlaces en gris claro en el footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff; /* Enlaces en blanco al pasar el cursor */
+}
