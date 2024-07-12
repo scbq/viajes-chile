@@ -1,3 +1,5 @@
+/*Felipe Aguilera Fuentealba*/
+
 body {
     font-family: 'Cabin', sans-serif;
     background-color: #000; /* Fondo negro */
@@ -17,6 +19,7 @@ body {
 .navbar-brand {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .navbar-brand img {
@@ -33,6 +36,10 @@ body {
 
 .navbar.scrolled .navbar-brand img {
     filter: none; /* Quitar el filtro del logo */
+}
+
+.navbar-brand:hover, .navbar-brand:focus{
+    color: white
 }
 
 .carousel-inner img {
